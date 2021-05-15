@@ -1,0 +1,64 @@
+tienda 
+{
+"commandType" : "veterinaria.tienda.creartienda",
+"aggregateId" : "123",
+"telefono" : "4778905",
+"direccion" : "Casa de Kuro"
+}
+
+vendedor
+{
+    "commandType" : "veterinaria.tienda.adicionarvendedor",
+    "aggregateId" : "123",
+    "vendedorId" : "321",
+    "telefono" : "3196747166",
+    "nombre" : "Shiro-Sama",
+    "direccion" : "Casa de Shiro-Sama",
+    "correo" : "shiro-sama@udea.edu.co"
+}
+
+cliente
+{
+"commandType" : "veterinaria.tienda.adicionarcliente",
+"aggregateId" : "123",
+"clienteId" : "789",
+"banco" : "Bancolombia",
+"numero de cuenta" : "852258",
+"medio de pago" : "efectivo",
+"numero de cuotas" : "1",
+"nombre" : "Goffy",
+"telefono" : "3135661621"
+}
+
+producto
+{
+"commandType" : "veterinaria.tienda.adicionarproducto",
+"aggregateId" : "123",
+"productoId" : "963",
+"precio del producto" : "100",
+"nombre" : "Comida Shiro"
+}
+
+modificacion datos cliente
+{
+"commandType" : "veterinaria.tienda.modificardatospersonalescliente",
+"aggregateId" : "123",
+"clienteId" : "789",
+"banco" : "BBVA",
+"numero de cuenta" : "753159",
+"medio de pago" : "efectivo",
+"numero de cuotas" : "1",
+"nombre" : "Goffy-San",
+"telefono" : "3135661621"
+}
+
+modificacion datos vendedor
+{
+    "commandType" : "veterinaria.tienda.modificardatospersonalesvendedor",
+    "aggregateId" : "123",
+    "vendedorId" : "321",
+    "telefono" : "4715632",
+    "nombre" : "BlancoShiro-Sama",
+    "direccion" : "Casa de Shiro-Sama",
+    "correo" : "blancoshiro-sama@udea.edu.co"
+}
